@@ -8,7 +8,6 @@
     border-radius: 15px;
     display:flex;
     overflow:hidden;
-    justify-content:right;
     padding-right: 12px;
     height: 50px;
     width: 0%;
@@ -74,10 +73,7 @@
 section {
     padding-top: 35px;
 }
-.left_text {
-    position: absolute;
-    left: 5px;
-}
+
 
 body { 
     text-align: center;
@@ -96,15 +92,25 @@ body {
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.navbar a {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
 a {
     color: rgb(134, 134, 204);
     transition-duration: 100ms;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 a:hover {
     color: rgb(126, 126, 236);
 }
+
+a.nopadding {
+    padding: 0px 0px 0px 0px;
+}
+
 red {
     color: rgb(241, 78, 78);
     font-weight: bold;
