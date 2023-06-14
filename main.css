@@ -65,13 +65,13 @@
 .fromleft {
     opacity: 0;
     animation: fromLeft 2s 1;
-    animation-delay: 3400ms;
+    animation-delay: 3150ms;
     animation-fill-mode: forwards;
 }
 .fromright {
     opacity: 0;
     animation: fromRight 2s 1;
-    animation-delay: 3400ms;
+    animation-delay: 3150ms;
     animation-fill-mode: forwards;
 }
 
@@ -109,7 +109,7 @@
 section {
     opacity: 0;
     animation: fromRight 2s;
-    animation-delay: 1.5s;
+    animation-delay: 1.1s;
     animation-fill-mode: forwards;
     padding-top: 35px;
 }
