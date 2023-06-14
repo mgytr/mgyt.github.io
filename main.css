@@ -71,10 +71,3 @@ red {
     color: rgb(241, 78, 78);
     font-weight: bold;
 }
-.copyright {
-    position: fixed;
-    bottom: 0;
-    left: 50%; /* relative to nearest positioned ancestor or body element */
-    transform: translate(-50%, -50%); /* relative to element's height & width */
-    text-align: center;
-}
