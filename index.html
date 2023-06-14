@@ -8,7 +8,7 @@
     <title>MGbot</title>
 </head>
 <nav class="navbar">
-    <a href="#info">MGbot</a>
+    <a href="#info" class="left_text">MGbot</a>
     <a href="#commands">Команды</a>
     <a href="https://discord.com/api/oauth2/authorize?client_id=1042086072026398720&permissions=8&scope=applications.commands%20bot">Добавить MGbot на сервер</a>
 </nav>
@@ -22,9 +22,11 @@
         <br>
         <br>
         <a href="#music_commands">Музыкальные команды</a>
+        <a href="#entertaiment_commands">Развлекательные команды</a>
         <a href="#mod_commands">Модераторские команды</a>
-        <a href="#guard_commands">Команды для управления защиты сервера</a>
+        <a href="#guard_commands">Команды для управления защитой сервера</a>
         <section id="music_commands">
+            <h1>Музыкальные команды</h1>
             <p><b>play</b> - <b>название: строка</b></p>
             Сыграть музыку
             <p><b>stop</b> - <b>нет аргументов</b></p>
@@ -41,9 +43,10 @@
             Послушать мешапы сделаные MoneyGrabYT
         </section>
         <section id="entertainment_commands">
+            <h1>Развлечения</h1>
             <p><b>tictactoe</b> (<b>ttt</b>, <b>tttgame</b>) - <b>пользователь: участник</b></p>
             Крестики нолики
-            <p><red>aki (отключено)</red>red> - <b>нет аргументов</b></p>
+            <p><red>aki (отключено)</red> - <b>нет аргументов</b></p>
             Акинатор
             <p><b>ben</b> - <b>вопрос: строка</b></p>
             Спросить бена вопрос
@@ -51,6 +54,7 @@
             Показать уровень участника.
         </section>
         <section id="mod_commands">
+            <h1>Модераторские команды</h1>
             <p><b>ban</b> - <b>user: пользователь, reason (необязательно): строка</b></p>
             Забанить пользователя
             <p><b>clear</b> - <b>messages: число, пользователь (необязательно): пользователь</b></p>
@@ -59,12 +63,14 @@
             Разбанить пользователя
             <p><b>kick</b> - <b>user: участник, reason (необязательно): строка</b></p>
             Кикннуть пользователя
-            <p><b>mute</b> - <b>user: участник, time: число, timeformat: строка, reason (необязательно): строка</b></p>
+            <p><b>mute</b> - <b>user: участник, time: число, timeformat: варианты: s, m, h, и d, reason (необязательно): строка</b></p>
+
             Замутить участника
             <p><b>unmute</b> - <b>user: участник, reason (необязательно): строка</b></p>
             Размутить участника
         </section>
         <section id="guard_commands">
+            <h1>Команды для управления защитой сервера</h1>
             <p><b>config</b> - <b>нет аргументов</b></p>
             Настройка защиты сервера
             <p><b>allow_deny_config</b> - <b>member: участник</b></p>
