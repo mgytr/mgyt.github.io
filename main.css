@@ -93,6 +93,7 @@
 }
 
 .navbar_container {
+    z-index: 999;
     position: sticky;
     width: 100%;
     display: flex;
